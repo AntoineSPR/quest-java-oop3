@@ -4,9 +4,7 @@ public interface Fly {
 
     int ascend(int meters);
     
-    default String glide() {
-        return "glides into the air";
-    };
+    void glide();
     
     int descend(int meters);
     
